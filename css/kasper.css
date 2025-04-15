@@ -1045,7 +1045,6 @@ header nav .form  i {
 }
 
 .subscribe .container form {
-    border: 1px solid white;
     display: flex;
     position: relative;
     max-width: 100%;
@@ -1055,11 +1054,18 @@ header nav .form  i {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 15px;
+    margin-left: 20px;
+}
+
+@media (max-width:767px) {
+    .subscribe .container form i {
+        margin-left: 15px;
+    }
 }
 
 .subscribe .container form input[type="email"] {
-    border: none;
+    border: 1px solid white;
+    border-right: none;
     background: none;
     outline: none;
     color: white;
@@ -1082,7 +1088,8 @@ header nav .form  i {
 .subscribe .container form input[type="submit"] {
     background-color: var(--main-color);
     color: white;
-    border: none;
+    border: 1px solid white;
+    border-left: none;
     padding: 20px;
     text-transform: uppercase;
 }
