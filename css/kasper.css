@@ -1070,7 +1070,7 @@ header nav .form  i {
 
 @media (max-width: 767px) {
     .subscribe .container form input[type="email"] {
-        padding: 0 20px 0 45px;
+        padding: 0 0 0 45px;
     }
 }
 
@@ -1082,8 +1082,14 @@ header nav .form  i {
     background-color: var(--main-color);
     color: white;
     border: none;
-    padding: 20px 20px;
+    padding: 20px;
     text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .subscribe .container form input[type="submit"] {
+        padding: 20px 10px;
+    }
 }
 
 .subscribe .container p {
