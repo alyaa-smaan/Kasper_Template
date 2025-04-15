@@ -1048,6 +1048,7 @@ header nav .form  i {
     border: 1px solid white;
     display: flex;
     position: relative;
+    max-width: 100%;
 }
 
 .subscribe .container form i {
@@ -1081,7 +1082,7 @@ header nav .form  i {
     background-color: var(--main-color);
     color: white;
     border: none;
-    padding: 20px 25px;
+    padding: 20px 20px;
     text-transform: uppercase;
 }
 
