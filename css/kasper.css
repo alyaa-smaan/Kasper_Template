@@ -1055,7 +1055,7 @@ header nav .form  i {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .subscribe .container form input[type="email"] {
@@ -1063,7 +1063,7 @@ header nav .form  i {
     background: none;
     outline: none;
     color: white;
-    margin-left: 15px;
+    margin-left: 5px;
     caret-color: var(--main-color);
     padding: 0 60px 0 45px;
 }
@@ -1071,6 +1071,7 @@ header nav .form  i {
 @media (max-width: 767px) {
     .subscribe .container form input[type="email"] {
         padding: 0 0 0 45px;
+        margin-left: 0;
     }
 }
 
